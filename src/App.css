@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+.App-content-image {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.App-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.App-content-cards {
+  display: flex;
+}
+
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Optional: Adds space between cards */
+}
+
+.App-content-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  flex: 1 1 calc(33.333% - 20px); /* Adjust the width as needed */
+  box-sizing: border-box;
+}
+
+.App-content-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.App-content-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.App-footer {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.App-footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-footer-content h2,
+.App-footer-content h3 {
+  color: #fff;
+}
+.App-footer-content p {
+  color: #ccc;
+}
+
+.footer-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-nav h2 {
+  color: #fff;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+  text-decoration: underline;
 }

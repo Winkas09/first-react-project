@@ -99,8 +99,9 @@
 }
 
 .footer-nav ul li {
-  display: inline;
+  display: block;
   margin-right: 15px;
+  padding: 5px 0;
 }
 
 .footer-nav ul li a {
